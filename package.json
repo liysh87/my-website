@@ -4,10 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev:client": "vite --host --port 3000",
-    "dev": "pnpm dev:client",
-    "build:client": "vite build --outDir dist/static",
-    "build": "rm -rf dist && vite build --outDir dist/static"
+   "dev:client": "vite --host --port 3000",
+  "dev": "npm run dev:client",
+  "build": "vite build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
